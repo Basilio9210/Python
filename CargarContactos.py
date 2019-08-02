@@ -1,7 +1,7 @@
 def cargar():
-    contactos={}
-    continua="s"
-    while continua=="s":
+    contactos = {}
+    continua = "s"
+    while continua == "s":
         nombre=input("Ingrese el nombre del contacto:")
         telefono=input("Ingrese el numero de telefono:")
         contactos[nombre]=telefono
